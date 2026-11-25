@@ -35,7 +35,7 @@ ENGINE = InnoDB;
 -- Table `aluguel_veiculo`.`cliente`
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `aluguel_veiculo`.`cliente` (
-  `idcliente` INT UNSIGNED NOT NULL,
+  `idcliente` INT UNSIGNED NOT NULL AUTO_INCREMENT,
   `nome` VARCHAR(100) NOT NULL,
   `fone` VARCHAR(13) NOT NULL,
   `foto` VARCHAR(200) NOT NULL,
@@ -48,7 +48,7 @@ ENGINE = InnoDB;
 -- Table `aluguel_veiculo`.`agendamento`
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `aluguel_veiculo`.`agendamento` (
-  `idagendamento` INT UNSIGNED NOT NULL,
+  `idagendamento` INT UNSIGNED NOT NULL AUTO_INCREMENT,
   `dia_inicial` DATE NOT NULL,
   `dia_final` DATE NOT NULL,
   `periodo` INT NOT NULL,
