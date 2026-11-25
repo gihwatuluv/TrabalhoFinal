@@ -1,0 +1,14 @@
+INSERT INTO cliente (idcliente, nome, fone, foto, endereco) VALUES
+(1, 'Ana Souza', '62991234567', 'ana.jpg', 'Rua das Flores, 120'),
+(2, 'Pedro Oliveira', '62992345678', 'pedro.jpg', 'Avenida Brasil, 250'),
+(3, 'Mariana Costa', '62993456789', 'mariana.jpg', 'Rua Goiás, 45'),
+(4, 'Lucas Santos', '62994567890', 'lucas.jpg', 'Avenida Central, 300'),
+(5, 'Beatriz Lima', '62995678901', 'beatriz.jpg', 'Rua das Palmeiras, 80');
+
+INSERT INTO veiculo (idveiculo, placa, modelo, cor, ano) VALUES
+(1, 'ABC1D23', 'Fiat Argo', 'Branco', 2022),
+(2, 'DEF4G56', 'Chevrolet Onix', 'Preto', 2023),
+(3, 'HIJ7K89', 'Hyundai HB20', 'Prata', 2021),
+(4, 'LMN1O23', 'Volkswagen Gol', 'Vermelho', 2020),
+(5, 'PQR4S56', 'Toyota Corolla', 'Cinza', 2024);
+
