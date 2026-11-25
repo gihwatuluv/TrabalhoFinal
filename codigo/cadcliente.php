@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -24,7 +25,6 @@
         <input type="file" name="foto"> <br><br>
 
         <input type="submit" value="Salvar">
-
     </form>
 </body>
 

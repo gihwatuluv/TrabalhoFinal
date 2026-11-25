@@ -9,7 +9,7 @@
 
     <a href="cadcliente.php">Cadastro do Cliente</a> <br><br>
     <a href="listarclientes.php">Listar Clientes</a> <br><br>
-    <a href="formveiculo.php">Cadastro de veiculo</a> <br><br>
+    <a href="cadveiculo.php">Cadastro de veiculo</a> <br><br>
     <a href="listarveiculos.php">Listar Veiculos</a> <br><br>
     <a href="cadagendamento.php">Agendamento</a>  <br><br>
 

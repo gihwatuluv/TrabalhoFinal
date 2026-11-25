@@ -21,10 +21,9 @@
         <input type="text" name="cor"> <br><br>
 
         Ano: <br>
-        <input type="number" name="ano"> <br><br>
+        <input type="text" name="ano"> <br><br>
 
-        Valor: <br>
-        <input type="number" name="valor" step="0.01"> <br><br>
+    
 
         <input type="submit" value="Salvar">
 

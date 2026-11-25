@@ -22,7 +22,7 @@ USE `aluguel_veiculo` ;
 -- Table `aluguel_veiculo`.`veiculo`
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `aluguel_veiculo`.`veiculo` (
-  `idveiculo` INT UNSIGNED NOT NULL,
+  `idveiculo` INT UNSIGNED NOT NULL AUTO_INCREMENT,
   `placa` VARCHAR(100) NOT NULL,
   `modelo` VARCHAR(100) NOT NULL,
   `cor` VARCHAR(100) NOT NULL,
