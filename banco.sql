@@ -40,7 +40,21 @@ CREATE TABLE IF NOT EXISTS `aluguel_veiculo`.`cliente` (
   `fone` VARCHAR(13) NOT NULL,
   `foto` VARCHAR(200) NOT NULL,
   `endereco` VARCHAR(200) NOT NULL,
+  
   PRIMARY KEY (`idcliente`))
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `aluguel_veiculo`.`funcionario`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `aluguel_veiculo`.`funcionario` (
+  `idfuncionario` INT UNSIGNED NOT NULL AUTO_INCREMENT,
+  `nome` VARCHAR(100) NOT NULL,
+  `email` VARCHAR(200) NOT NULL,
+  `senha` VARCHAR(200) NOT NULL,
+  
+  PRIMARY KEY (`idfuncionario`))
 ENGINE = InnoDB;
 
 
