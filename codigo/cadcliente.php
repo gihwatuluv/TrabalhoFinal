@@ -15,16 +15,18 @@
         Nome: <br>
         <input type="text" name="nome"> <br><br>
 
-        Telefone: <br>
-        <input type="text" name="fone"> <br><br>
+        Email: <br>
+        <input type="text" name="email"> <br><br>
 
-        Endereço: <br>
-        <input type="text" name="endereco"> <br><br>
+        Senha: <br>
+        <input type="text" name="senha"> <br><br>
 
         Foto: <br>
         <input type="file" name="foto"> <br><br>
 
+
         <input type="submit" value="Salvar">
+        
     </form>
 </body>
 
