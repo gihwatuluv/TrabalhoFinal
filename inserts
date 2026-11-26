@@ -12,3 +12,7 @@ INSERT INTO veiculo (idveiculo, placa, modelo, cor, ano) VALUES
 (4, 'LMN1O23', 'Volkswagen Gol', 'Vermelho', 2020),
 (5, 'PQR4S56', 'Toyota Corolla', 'Cinza', 2024);
 
+use aluguel_veiculo;
+INSERT INTO funcionario (nome, email, senha)
+VALUES ('teste1', 'teste1@gmail', '$2y$10$EUCtbXazBL3xtO4r.YpImeM3KCCGwhPqmbD30KrNVYQEolFec.HQu'); senha 123
+SELECT * FROM aluguel_veiculo.funcionario;

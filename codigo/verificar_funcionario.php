@@ -18,8 +18,8 @@ if ($quantidade == 1) {
     $linha = mysqli_fetch_array($resultado);
     $senha_banco = $linha['senha'];
 
-    // if (password_verify($senha, $senha_banco)) {
-       if ($senha == $senha_banco) {
+    if (password_verify($senha, $senha_banco)) {
+    //    if ($senha == $senha_banco) {
         $nome = $linha['nome'];
         $email = $linha['email'];
         $idfuncionario = $linha['idfuncionario'];
