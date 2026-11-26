@@ -1,5 +1,5 @@
 <?php
-require_once "conexao.php";
+require_once "../conexao.php";
 
 
 $nome = $_POST['nome'];
@@ -16,7 +16,7 @@ $extensao = pathinfo($nome_arquivo, PATHINFO_EXTENSION);
 
 $novo_nome = uniqid() . "." . $extensao;
 
-$caminho_destino = "fotos_cliente/" . $novo_nome;
+$caminho_destino = "../fotos_cliente/" . $novo_nome;
 
 move_uploaded_file($caminho_temporario, $caminho_destino);
 
@@ -29,5 +29,5 @@ mysqli_stmt_bind_param($comando, "ssss", $nome, $email, $nova_senha, $novo_nome)
 
 mysqli_stmt_execute($comando);
 
-header("Location: index.php");
+header("Location: ../index.php");
 ?>
