@@ -7,7 +7,7 @@
 </head>
 <body>
 
-    <a href="../cliente/cadcliente.php">Cadastro do Cliente</a> <br><br>
+    <a href="../cliente/cliente.php">Cadastro do Cliente</a> <br><br>
     <!-- <a href="listarclientes.php">Listar Clientes</a> <br><br> -->
     <!-- <a href="cadveiculo.php">Cadastro de veiculo</a> <br><br> -->
     <!-- <a href="listarveiculos.php">Listar Veiculos</a> <br><br> -->

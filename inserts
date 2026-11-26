@@ -16,3 +16,6 @@ use aluguel_veiculo;
 INSERT INTO funcionario (nome, email, senha)
 VALUES ('teste1', 'teste1@gmail', '$2y$10$EUCtbXazBL3xtO4r.YpImeM3KCCGwhPqmbD30KrNVYQEolFec.HQu'); senha 123
 SELECT * FROM aluguel_veiculo.funcionario;
+
+
+$2y$10$C43pPCjlVp88mcFqoD.l5.7ek5Elj8bFPpfXjb9J/IeAbjKvjv8PW   senha abc

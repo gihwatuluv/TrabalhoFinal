@@ -1,0 +1,40 @@
+<?php
+require_once "../conexao.php";
+
+$email = $_POST['email'];
+$senha = $_POST['senha'];
+
+$sql = "select * from cliente WHERE email = ?";
+$comando = mysqli_prepare($conexao, $sql);
+
+mysqli_stmt_bind_param($comando, "s", $email);
+mysqli_stmt_execute($comando);
+
+$resultado = mysqli_stmt_get_result($comando);
+$quantidade = mysqli_num_rows($resultado);
+
+
+if ($quantidade == 1) {
+    $linha = mysqli_fetch_array($resultado);
+    $senha_banco = $linha['senha'];
+
+    if (password_verify($senha, $senha_banco)) {
+    //    if ($senha == $senha_banco) {
+        $nome = $linha['nome'];
+        $email = $linha['email'];
+        $idcliente = $linha['idcliente'];
+        // $foto = $linha['foto'];
+
+        session_start();
+        $_SESSION['email'] = $email;
+        $_SESSION['nome'] = $nome;
+        $_SESSION['idcliente'] = $idcliente;
+
+         header("Location: /cliente/principal_cliente.php");
+     } else {
+         header("Location:/cliente/cliente.php?erro=login&email=$email");
+     }
+ } else {
+     header("Location: /cliente/cliente.php?erro=login&email=$email");
+ }
+
