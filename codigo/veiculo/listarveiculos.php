@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -59,6 +60,9 @@
             echo "<br>";
 
             echo "Ano: " . $ano;
+            echo "<br><br>";
+
+            echo "<a href='editar.php?idveiculo=$idveiculo'>Editar veículo</a>";
 
             echo "</div>";
         }
@@ -66,6 +70,4 @@
     </div>
 
 </body>
-
 </html>
-
