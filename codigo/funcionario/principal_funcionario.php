@@ -14,11 +14,8 @@
     <a href="../veiculo/listarveiculos.php">Listar Veículos</a>
     <br><br>
 
-    <!-- <a href="cadcliente.php">Cadastro de Clientes</a>
-    <br><br> -->
-
-    <!-- <a href="../cliente/listarclientes.php">Listar Clientes</a>
-    <br><br> -->
+    <a href="../veiculo/editar.php">Editar Veículos</a>
+    <br><br>
 
 
 </body>
