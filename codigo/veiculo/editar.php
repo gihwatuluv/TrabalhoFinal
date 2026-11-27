@@ -1,6 +1,6 @@
+
 <?php
-require_once "verificar_sessao.php";
-require_once "conexao.php";
+require_once "../conexao.php";
 
 $idveiculo = $_GET['idveiculo'];
 
@@ -29,40 +29,40 @@ $veiculo = mysqli_fetch_array($resultado);
 
     <h1>Editar veículo</h1>
 
-    <form action="salvar_edicao_veiculo.php" method="POST">
+    <form action="salvareditar.php" method="POST">
 
         <input type="hidden" name="idveiculo"
-            value="<?php echo $veiculo['idveiculo']; ?>">
+        value="<?php echo $veiculo['idveiculo']; ?>">
 
         Placa:
         <br>
         <input type="text" name="placa"
-            value="<?php echo $veiculo['placa']; ?>">
+        value="<?php echo $veiculo['placa']; ?>">
         <br><br>
 
         Modelo:
         <br>
         <input type="text" name="modelo"
-            value="<?php echo $veiculo['modelo']; ?>">
+        value="<?php echo $veiculo['modelo']; ?>">
         <br><br>
 
         Cor:
         <br>
         <input type="text" name="cor"
-            value="<?php echo $veiculo['cor']; ?>">
+        value="<?php echo $veiculo['cor']; ?>">
         <br><br>
 
         Ano:
         <br>
         <input type="number" name="ano"
-            value="<?php echo $veiculo['ano']; ?>">
+        value="<?php echo $veiculo['ano']; ?>">
         <br><br>
 
         <input type="submit" value="Salvar alterações">
 
     </form>
 
-    <a href="../funcionario/principal_funcionaio.php">Início</a>
+    <a href="listarveiculos.php">Início</a>
 
 </body>
-</html>  
+</html>

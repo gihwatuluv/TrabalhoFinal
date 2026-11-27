@@ -1,6 +1,5 @@
 <?php
-require_once "verificar_sessao.php";
-require_once "conexao.php";
+require_once "../conexao.php";
 
 $idveiculo = $_POST['idveiculo'];
 $placa = $_POST['placa'];
