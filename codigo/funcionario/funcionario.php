@@ -1,3 +1,9 @@
+<?php
+if (isset($_GET['erro']) && $_GET['erro'] == 'login') {
+    echo "<p style='color:red;'>E-mail ou senha incorretos!</p>";
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
