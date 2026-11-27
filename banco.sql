@@ -68,7 +68,7 @@ CREATE TABLE IF NOT EXISTS `aluguel_veiculo`.`agendamento` (
   `dia_final` DATE NOT NULL,
   `periodo` INT NOT NULL,
   `idcliente` INT UNSIGNED NOT NULL,
-  `valor` DECIMAL(4,2) NOT NULL,
+  `valor` DECIMAL(10,2) NOT NULL,
   PRIMARY KEY (`idagendamento`),
   INDEX `fk_agendamento_cliente_idx` (`idcliente` ASC) VISIBLE,
   CONSTRAINT `fk_agendamento_cliente`

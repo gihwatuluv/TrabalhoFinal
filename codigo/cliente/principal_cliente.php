@@ -12,7 +12,7 @@ session_start();
 
     <h1>Bem-vindo à área do cliente!</h1>
 
-    <a href="../cadagendamento.php">Agendamento</a>
+    <a href="../agendamento/cadagendamento.php">Agendamento</a>
 
 </body>
 </html>

@@ -1,5 +1,5 @@
 <?php
-require_once "conexao.php";
+require_once "../conexao.php";
 
 
 $placa = $_POST['placa'];
@@ -15,5 +15,5 @@ mysqli_stmt_bind_param($comando, "ssss", $placa, $modelo, $cor, $ano);
 
 mysqli_stmt_execute($comando);
 
-header("Location: index.php");
+header("Location: ../index.php");
 ?>

@@ -21,7 +21,7 @@
         Veiculos: <br>
 
             <?php
-                require_once "conexao.php";
+                require_once "../conexao.php";
 
                     $sql = "SELECT * FROM veiculo";
 
@@ -36,7 +36,7 @@
                         $idveiculo = $linha['idveiculo'];
                         $modelo = $linha['modelo'];
 
-                        echo "<input type='checkbox' name='opcao[]' value='$idveiculo'> $modelo <br>";
+                        echo "<input type='checkbox' name='veiculo[]' value='$idveiculo'> $modelo <br>";
                     }
             ?>
 
