@@ -15,6 +15,6 @@
         <input type="submit" value="Logar">
     </form>
 
-    <a href="cadcliente.php">Sou cliente.</a>
+    <a href="../cliente/cadcliente.php">Sou cliente.</a>
 </body>
 </html>
