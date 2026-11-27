@@ -13,9 +13,6 @@
 
     <a href="../veiculo/listarveiculos.php">Listar Veículos</a>
     <br><br>
-
-    <a href="../veiculo/editar.php">Editar Veículos</a>
-    <br><br>
     
     <a href="../cliente/pesquisar.php">Pesquisar cliente</a>
 
